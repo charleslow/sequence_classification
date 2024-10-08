@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sequence_classification"
+version = "0.1.0"
+description = ""
+authors = ["charleslow <charleslow88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sentence-transformers = "^3.0"
+transformers = "^4.42"
+torch = "^2.2"
+datasets = "^2.14.0"
+evaluate = "^0.4.0"
+seqeval = "^1.2.2"
+setfit = "^0.7.0"
+nltk = "^3.9.1"
+rich = "^13.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
